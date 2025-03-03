@@ -20,7 +20,8 @@ Summarize the results of the machine learning models, and include a recommendati
 
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-The results of the logistic regression model are promising because it has a 99% accuracy rate. Performance does depend on the problem we are trying to solve. For example, if determining which are high-risk loans are more important, a model with high recall for the value 1 is best.
+
+* The results of the logistic regression model are promising because it has a 99% accuracy rate. Performance does depend on the problem we are trying to solve. For example, if determining which are high-risk loans are more important, a model with high recall for the value 1 is best.
 However, if avoiding misclassification of healthy loans is more important, a model with high precision for the value 0 is preferred.
 
 
